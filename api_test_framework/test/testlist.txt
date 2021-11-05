@@ -1,0 +1,2 @@
+test_meter_code
+# test_user_reg_exist   # ×¢ÊÍºó²»Ö´ĞĞ

@@ -1,0 +1,4 @@
+method: get
+url: http://127.0.0.1:8091/services/testService/queryUserInfo
+params:
+  meterCode: $meterCode

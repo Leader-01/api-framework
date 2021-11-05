@@ -1,0 +1,67 @@
+[2021-11-03 16:02:06] INFO [<module>: run_all.py, 6] ================================== 测试开始 ==================================
+[2021-11-03 16:02:06] DEBUG [_new_conn: connectionpool.py, 227] Starting new HTTP connection (1): 127.0.0.1:8091
+[2021-11-03 16:02:06] DEBUG [_make_request: connectionpool.py, 452] http://127.0.0.1:8091 "GET /services/testService/queryAccountNumber?tel=18912345677&address=%E5%9C%B0%E5%9D%80%E4%BF%A1%E6%81%AF289 HTTP/1.1" 200 None
+[2021-11-03 16:02:06] INFO [<module>: run_all.py, 13] ================================== 测试结束 ==================================
+[2021-11-03 16:11:47] DEBUG [_new_conn: connectionpool.py, 227] Starting new HTTP connection (1): 127.0.0.1:8091
+[2021-11-03 16:11:47] DEBUG [_make_request: connectionpool.py, 452] http://127.0.0.1:8091 "GET /services/testService/queryAccountNumber?tel=18912345677&address=%E5%9C%B0%E5%9D%80%E4%BF%A1%E6%81%AF289 HTTP/1.1" 200 None
+[2021-11-03 16:11:47] INFO [log_case_info: case_log.py, 9] 测试用例：test_water
+[2021-11-03 16:11:47] INFO [log_case_info: case_log.py, 10] url：http://127.0.0.1:8091/services/testService/queryAccountNumber
+[2021-11-03 16:11:47] INFO [log_case_info: case_log.py, 11] 请求参数：{"tel": 18912345677, "address": "地址信息289"}
+[2021-11-03 16:11:47] INFO [log_case_info: case_log.py, 12] 期望结果：{"code":1,"data":{"customerCode":"XCX01112","meterCode":"289124456101","customerName":"730月多正常","address":"地址信息289"}}
+[2021-11-03 16:11:47] INFO [log_case_info: case_log.py, 13] 实际结果：{"code":1,"data":{"customerCode":"XCX01112","meterCode":"289124456101","customerName":"730月多正常","address":"地址信息289"}}
+[2021-11-03 16:13:52] INFO [<module>: run_all.py, 6] ================================== 测试开始 ==================================
+[2021-11-03 16:13:53] DEBUG [_new_conn: connectionpool.py, 227] Starting new HTTP connection (1): 127.0.0.1:8091
+[2021-11-03 16:13:53] DEBUG [_make_request: connectionpool.py, 452] http://127.0.0.1:8091 "GET /services/testService/queryAccountNumber?tel=18912345677&address=%E5%9C%B0%E5%9D%80%E4%BF%A1%E6%81%AF289 HTTP/1.1" 200 None
+[2021-11-03 16:13:53] INFO [<module>: run_all.py, 13] ================================== 测试结束 ==================================
+[2021-11-03 16:29:07] INFO [<module>: run_all.py, 6] ================================== 测试开始 ==================================
+[2021-11-03 16:29:08] DEBUG [_new_conn: connectionpool.py, 227] Starting new HTTP connection (1): 127.0.0.1:8091
+[2021-11-03 16:29:08] DEBUG [_make_request: connectionpool.py, 452] http://127.0.0.1:8091 "GET /services/testService/queryAccountNumber?tel=18912345677&address=%E5%9C%B0%E5%9D%80%E4%BF%A1%E6%81%AF289 HTTP/1.1" 200 None
+[2021-11-03 16:29:08] INFO [log_case_info: case_log.py, 10] 测试用例：test_water
+[2021-11-03 16:29:08] INFO [log_case_info: case_log.py, 11] url：http://127.0.0.1:8091/services/testService/queryAccountNumber
+[2021-11-03 16:29:08] INFO [log_case_info: case_log.py, 12] 请求参数：{"tel": 18912345677, "address": "地址信息289"}
+[2021-11-03 16:29:08] INFO [log_case_info: case_log.py, 13] 期望结果：{"code":1,"data":{"customerCode":"XCX01112","meterCode":"289124456101","customerName":"730月多正常","address":"地址信息289"}}
+[2021-11-03 16:29:08] INFO [log_case_info: case_log.py, 14] 实际结果：{"code":1,"data":{"customerCode":"XCX01112","meterCode":"289124456101","customerName":"730月多正常","address":"地址信息289"}}
+[2021-11-03 16:29:08] INFO [<module>: run_all.py, 13] ================================== 测试结束 ==================================
+[2021-11-04 10:02:38] INFO [<module>: run_all.py, 6] ================================== 测试开始 ==================================
+[2021-11-04 10:02:38] DEBUG [_new_conn: connectionpool.py, 227] Starting new HTTP connection (1): 127.0.0.1:8091
+[2021-11-04 10:02:38] DEBUG [_make_request: connectionpool.py, 452] http://127.0.0.1:8091 "GET /services/testService/queryAccountNumber?tel=18912345677&address=%E5%9C%B0%E5%9D%80%E4%BF%A1%E6%81%AF289 HTTP/1.1" 200 None
+[2021-11-04 10:02:38] INFO [log_case_info: case_log.py, 10] 测试用例：test_water
+[2021-11-04 10:02:38] INFO [log_case_info: case_log.py, 11] url：http://127.0.0.1:8091/services/testService/queryAccountNumber
+[2021-11-04 10:02:38] INFO [log_case_info: case_log.py, 12] 请求参数：{"tel": 18912345677, "address": "地址信息289"}
+[2021-11-04 10:02:38] INFO [log_case_info: case_log.py, 13] 期望结果：{"code":1,"data":{"customerCode":"XCX01112","meterCode":"289124456101","customerName":"730月多正常","address":"地址信息289"}}
+[2021-11-04 10:02:38] INFO [log_case_info: case_log.py, 14] 实际结果：{"code":1,"data":{"customerCode":"XCX01112","meterCode":"289124456101","customerName":"730月多正常","address":"地址信息289"}}
+[2021-11-04 10:02:38] INFO [<module>: run_all.py, 13] ================================== 测试结束 ==================================
+[2021-11-04 10:46:27] INFO [<module>: run_all.py, 6] ================================== 测试开始 ==================================
+[2021-11-04 10:46:27] DEBUG [_new_conn: connectionpool.py, 227] Starting new HTTP connection (1): 127.0.0.1:8091
+[2021-11-04 10:46:27] DEBUG [_make_request: connectionpool.py, 452] http://127.0.0.1:8091 "GET /services/testService/queryAccountNumber?tel=18912345677&address=%E5%9C%B0%E5%9D%80%E4%BF%A1%E6%81%AF289 HTTP/1.1" 200 None
+[2021-11-04 10:46:27] INFO [log_case_info: case_log.py, 10] 测试用例：test_water
+[2021-11-04 10:46:27] INFO [log_case_info: case_log.py, 11] url：http://127.0.0.1:8091/services/testService/queryAccountNumber
+[2021-11-04 10:46:27] INFO [log_case_info: case_log.py, 12] 请求参数：{"tel": 18912345677, "address": "地址信息289"}
+[2021-11-04 10:46:27] INFO [log_case_info: case_log.py, 13] 期望结果：{"code":1,"data":{"customerCode":"XCX01112","meterCode":"289124456101","customerName":"730月多正常","address":"地址信息289"}}
+[2021-11-04 10:46:27] INFO [log_case_info: case_log.py, 14] 实际结果：{"code":1,"data":{"customerCode":"XCX01112","meterCode":"289124456101","customerName":"730月多正常","address":"地址信息289"}}
+[2021-11-04 10:46:27] INFO [<module>: run_all.py, 13] ================================== 测试结束 ==================================
+[2021-11-04 10:53:08] INFO [<module>: run_all.py, 6] ================================== 测试开始 ==================================
+[2021-11-04 10:53:08] DEBUG [_new_conn: connectionpool.py, 227] Starting new HTTP connection (1): 127.0.0.1:8091
+[2021-11-04 10:53:08] DEBUG [_make_request: connectionpool.py, 452] http://127.0.0.1:8091 "GET /services/testService/queryAccountNumber?tel=18912345677&address=%E5%9C%B0%E5%9D%80%E4%BF%A1%E6%81%AF289 HTTP/1.1" 200 None
+[2021-11-04 10:53:08] INFO [log_case_info: case_log.py, 10] 测试用例：test_water
+[2021-11-04 10:53:08] INFO [log_case_info: case_log.py, 11] url：http://127.0.0.1:8091/services/testService/queryAccountNumber
+[2021-11-04 10:53:08] INFO [log_case_info: case_log.py, 12] 请求参数：{"tel": 18912345677, "address": "地址信息289"}
+[2021-11-04 10:53:08] INFO [log_case_info: case_log.py, 13] 期望结果：{"code":1,"data":{"customerCode":"XCX01112","meterCode":"289124456101","customerName":"730月多正常","address":"地址信息289"}}
+[2021-11-04 10:53:08] INFO [log_case_info: case_log.py, 14] 实际结果：{"code":1,"data":{"customerCode":"XCX01112","meterCode":"289124456101","customerName":"730月多正常","address":"地址信息289"}}
+[2021-11-04 10:53:08] INFO [<module>: run_all.py, 13] ================================== 测试结束 ==================================
+[2021-11-04 10:54:40] INFO [<module>: run_all.py, 6] ================================== 测试开始 ==================================
+[2021-11-04 10:54:40] DEBUG [_new_conn: connectionpool.py, 227] Starting new HTTP connection (1): 127.0.0.1:8091
+[2021-11-04 10:54:40] DEBUG [_make_request: connectionpool.py, 452] http://127.0.0.1:8091 "GET /services/testService/queryAccountNumber?tel=18912345677&address=%E5%9C%B0%E5%9D%80%E4%BF%A1%E6%81%AF289 HTTP/1.1" 200 None
+[2021-11-04 10:54:40] INFO [log_case_info: case_log.py, 10] 测试用例：test_water
+[2021-11-04 10:54:40] INFO [log_case_info: case_log.py, 11] url：http://127.0.0.1:8091/services/testService/queryAccountNumber
+[2021-11-04 10:54:40] INFO [log_case_info: case_log.py, 12] 请求参数：{"tel": 18912345677, "address": "地址信息289"}
+[2021-11-04 10:54:40] INFO [log_case_info: case_log.py, 13] 期望结果：{"code":1,"data":{"customerCode":"XCX01112","meterCode":"289124456101","customerName":"730月多正常","address":"地址信息289"}}
+[2021-11-04 10:54:40] INFO [log_case_info: case_log.py, 14] 实际结果：{"code":1,"data":{"customerCode":"XCX01112","meterCode":"289124456101","customerName":"730月多正常","address":"地址信息289"}}
+[2021-11-04 10:54:40] DEBUG [_new_conn: connectionpool.py, 227] Starting new HTTP connection (1): 127.0.0.1:8091
+[2021-11-04 10:54:40] DEBUG [_make_request: connectionpool.py, 452] http://127.0.0.1:8091 "GET /services/testService/insertRechargeAmount?meterCode=289124456101&rechargeAmount=100.12&paymentType=1&remark=%E9%A2%84%E5%AD%98%E5%A4%87%E6%B3%A8 HTTP/1.1" 200 None
+[2021-11-04 10:54:40] INFO [log_case_info: case_log.py, 10] 测试用例：test_amount
+[2021-11-04 10:54:40] INFO [log_case_info: case_log.py, 11] url：http://127.0.0.1:8091/services/testService/insertRechargeAmount
+[2021-11-04 10:54:40] INFO [log_case_info: case_log.py, 12] 请求参数：{"meterCode": 289124456101, "rechargeAmount": 100.12, "paymentType": 1, "remark": "预存备注"}
+[2021-11-04 10:54:40] INFO [log_case_info: case_log.py, 13] 期望结果：1.0
+[2021-11-04 10:54:40] INFO [log_case_info: case_log.py, 14] 实际结果：{"code":1,"data":{"customerCode":"XCX01112","customerName":"730月多正常","address":"地址信息289","depositTime":"2021-11-04 10:54:40","paymentType":null,"rechargeMoney":100.12000,"depositMoney":100.12000,"lastTimeDepositMoney":0.00}}
+[2021-11-04 10:54:40] INFO [<module>: run_all.py, 13] ================================== 测试结束 ==================================
